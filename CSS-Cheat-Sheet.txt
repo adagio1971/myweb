@@ -1,0 +1,27 @@
+CSS Cheat Sheet
+
+Reference:
+*https://www.w3schools.com/cssref/css_selectors.asp
+*https://css-tricks.com/almanac/
+
+Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter.
+
+
+.class  -> se utiliza para envolver (wrap) secciones
+#id     -> tienen que se unicos se le da estilo con ese id
+*       -> significa todo
+element -> para dar estilo a un
+element, element -> cuando necesitamos dos elementos con el mismo estilo
+element1 element2 -> cuando tenemos elementos anidanos. elemento2 dentro del elemento1
+element1 > element2 -> cuando el elemento2 sea parent del elemento1
+element1 + element2 -> select any element2 este exactamente despues del element1
+:hover -> cambia cuando se pasa el mouse encima
+:last-child -> solo se afecta el ultimo
+:first-child -> solo se afecta el primero
+!important (not recommended) ->  elimina el efecto de cascada, y lo aplica siempre
+
+
+What seletors win out in the cascade depends on:
+-Specificity
+-Importance
+-Source Order
